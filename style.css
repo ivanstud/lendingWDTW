@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+
+.bg-image{
+    background-attachment: fixed;
+    height: 100vh;
+    background-image: url(https://www.publicdomainpictures.net/pictures/80000/velka/blue-flames-of-fire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content{
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title{
+    font-family: 'New Tegomin', serif;
+    font-size: xx-large;
+}
+
+.sub-title{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.image-galery{
+    height: 350px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.image-galery img{
+    width: 80px;
+}
+
+.about{
+    margin-top: 33px;
+    text-align: center;
+}
+
+.about-title{
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid grey;
+    margin-bottom: 16px;
+}
+
+.about p{
+    text-align: justify;
+    line-height: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.message{
+    margin: 25px 0;
+}
+
+.message img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1px dashed #fff;
+}
+
+a:hover{
+    border-bottom: 1px solid #fff;
+}
